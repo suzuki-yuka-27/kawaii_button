@@ -46,3 +46,7 @@ README〜ER図作成：5/21〆切
 メイン機能実装：5/22 - 6/22  
 β版をRUNTEQ内リリース（MVP）：6/22〆切  
 本番リリース：7月初旬  
+
+
+## リンク
+[画面遷移図](https://www.figma.com/file/Qcl2suPZB4qpJYcMeH1Ywf/kawaii-button?node-id=0%3A1)
