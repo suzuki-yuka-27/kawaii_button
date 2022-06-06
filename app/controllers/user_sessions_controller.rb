@@ -5,9 +5,10 @@ class UserSessionsController < ApplicationController
     @user = login(params[:email], params[:password])
 
     if @user
-      redirect_back_or_to root_path
+      redirect_back_or_to root_path, success: "Logged in!"
     else
       render :new
+      flash[:danger] = "Login failed."
     end
   end
 
