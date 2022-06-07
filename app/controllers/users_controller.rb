@@ -7,10 +7,10 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
 
     if @user.save
-      redirect_to login_path, success: "User created!"
+      redirect_to login_path, notice: "User created!"
     else
+      flash.now[:alert] = "User can't create."
       render :new
-      flash[:danger] = "User can't create."
     end
   end
 
