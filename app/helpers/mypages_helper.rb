@@ -1,2 +1,2 @@
-module ProfilesHelper
+module MypagesHelper
 end

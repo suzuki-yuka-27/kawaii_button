@@ -6,9 +6,9 @@ class MypagesController < ApplicationController
 
   def update
     if @user.update(user_params)
-      redirect_to mypage_path, notice: "Profile updated!"
+      redirect_to mypage_path, success: "Profile updated!"
     else
-      flash.now[:alert] = "Profile can't update."
+      flash.now[:danger] = "Profile can't update."
       render :edit
     end
   end
