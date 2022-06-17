@@ -1,4 +1,3 @@
 class ButtonsController < ApplicationController
-  def show
-  end
+  def update; end
 end
