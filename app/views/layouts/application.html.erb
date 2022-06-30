@@ -10,10 +10,13 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 
     <%= stylesheet_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <%= render 'shared/flash_message' %>
+    <%= render 'shared/header' %>
     <%= yield %>
   </body>
 </html>
