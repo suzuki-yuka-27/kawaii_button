@@ -1,0 +1,13 @@
+<body>
+<div class="container">
+  <%= image_tag "speech_bubble.png", size: "250x110", class: "relative" %>
+  <input type="text" value="0" class="inputtext" id="textbox">
+  <button class="button" id="up">
+    <%= image_tag "heart_button.png", size: "400x350" %>
+  </button>
+  <button class="button resetbtn" id="reset">
+    RESET
+  </button>
+</div>
+  <%= javascript_pack_tag 'kawaii_button' %>
+</body>
